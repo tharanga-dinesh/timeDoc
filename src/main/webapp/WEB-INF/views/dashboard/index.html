@@ -1,0 +1,21 @@
+<!Doctype html> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" class="no-js">
+
+	<head th:include="/fragments/commoncss :: commoncss"></head>
+	
+	<body>
+	
+		<div th:incluce="/fragments/menu :: menu"></div>
+		
+	    <div class="page">
+			<header th:replace="/fragments/header :: header"></header>
+			
+			<footer th:replace="/fragments/footer :: footer"></footer>
+			
+			<div th:include="/fragments/commonjs :: commonjs"></div>
+			
+		</div>
+		
+	</body>
+	
+</html>
